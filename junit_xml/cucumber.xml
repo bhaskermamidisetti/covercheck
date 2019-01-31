@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="Insurence cover check for a valid vechile registration number" name="Verify vehicle details with valid registration" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on insurence home page........................................undefined
+When Enter the valid Vechile registration "OV12UYY".........................undefined
+Then The registration number is authenticated...............................undefined
+]]></failure>
+</testcase>
+<testcase classname="Insurence cover check for a valid vechile registration number" name="Verify vehicle details with invalid registration" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on insurence home page........................................undefined
+When Enter the invalid Vechile registration "232114"........................undefined
+Then The registration number is not authenticated...........................undefined
+]]></failure>
+</testcase>
+</testsuite>

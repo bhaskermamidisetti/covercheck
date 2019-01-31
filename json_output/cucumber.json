@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify vehicle details with valid registration",
+        "description": "",
+        "id": "insurence-cover-check-for-a-valid-vechile-registration-number;verify-vehicle-details-with-valid-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on insurence home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Enter the valid Vechile registration \"OV12UYY\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "The registration number is authenticated",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify vehicle details with invalid registration",
+        "description": "",
+        "id": "insurence-cover-check-for-a-valid-vechile-registration-number;verify-vehicle-details-with-invalid-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user is on insurence home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Enter the invalid Vechile registration \"232114\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "The registration number is not authenticated",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Insurence cover check for a valid vechile registration number",
+    "description": "",
+    "id": "insurence-cover-check-for-a-valid-vechile-registration-number",
+    "keyword": "Feature",
+    "uri": "insurencecovercheck.feature"
+  }
+]
